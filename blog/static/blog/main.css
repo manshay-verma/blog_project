@@ -1,0 +1,60 @@
+/* Base Typography */
+body {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40 !important;
+    font-family: 'Times New Roman', serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+/* Container & Content */
+.container {
+    margin-top: 10px;
+}
+
+/* Blog Sidebar */
+.blog-sidebar h4 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Cards or Posts */
+.blog-post {
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    background: white;
+    border: 1px solid #e2e2e2;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Footer */
+.blog-footer {
+    background-color: #eee;
+    font-size: 0.9rem;
+    margin-top: 50px;
+    border-top: 1px solid #ddd;
+}
+
+/* Links */
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
